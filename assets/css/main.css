@@ -1,12 +1,47 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700");
 /*@import url("fontawesome-all.min.css");*/
 
+
+/*Custom css, Adding here..*/
+.custom-icon-button-container {
+    display: flex; /* 使用 flexbox 使按钮在一行 */
+    justify-content: space-between; /* 按钮之间均匀分布 */
+    margin-top: 10px; /* 调整按钮上方的间距 */
+    padding: 0 15px; /* 添加容器的左右内边距 */
+}
+.custom-icon-button {
+    text-decoration: none; /* 去掉下划线 */
+    padding: 10px 20px; /* 按钮内边距 */
+    background-color: #499cf5; /* 按钮背景色 */
+    color: white; /* 按钮文字颜色 */
+    border-radius: 8px; /* 按钮圆角 */
+	flex: 1; /* 使按钮占据可用空间 */
+    margin: 0 10px; /* 固定按钮之间的间距 */
+	display: flex; /* 使按钮内容使用 flex 布局 */
+    align-items: center; /* 垂直居中 */
+    justify-content: center; /* 水平居中 */
+    text-align: center; /* 确保文本居中对齐 */
+}
+.custom-icon-button:first-child {
+    margin-left: 0; /* 第一个按钮不需要左侧间距 */
+}
+
+.custom-icon-button:last-child {
+    margin-right: 0; /* 最后一个按钮不需要右侧间距 */
+}
+.custom-icon-button:hover {
+    background-color: #5faafa;  /* 鼠标悬停时的背景色 */
+}
+.custom-icon-gray {
+    filter: grayscale(100%); /* 将图像变为灰色 */
+}
+
+
 /*
 	Miniport by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
