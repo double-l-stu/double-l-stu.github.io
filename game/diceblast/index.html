@@ -10,9 +10,29 @@
       font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
       padding: 1em;
     }
+
+    button:hover {
+      background-color: rgb(196, 244, 247);
+      color: #fff;
+    }
   </style>
 </head>
 
+<!--Set up consent mode on websites-->
+<script>
+  // Define dataLayer and the gtag function.
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+
+  // Set default consent to 'denied' as a placeholder
+  // Determine actual values based on your own requirements
+  gtag('consent', 'default', {
+    'ad_storage': 'granted',
+    'ad_user_data': 'granted',
+    'ad_personalization': 'granted',
+    'analytics_storage': 'granted'
+  });
+</script>
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-X1N78EZFNT"></script>
 <script>
@@ -21,6 +41,16 @@
   gtag('js', new Date());
 
   gtag('config', 'G-X1N78EZFNT');
+</script>
+
+<!-- Create one update function for each consent parameter -->
+<script>
+  function consentGrantedAdStorage() {
+    console.log('consent granted');
+    gtag('consent', 'update', {
+      'ad_storage': 'granted'
+    });
+  }
 </script>
 
 <body>
@@ -172,6 +202,9 @@
     If you have any questions or suggestions about my
     Privacy Policy, do not hesitate to contact me at double.l.stu@gmail.com.
   </p>
+
+  <button onclick="consentGrantedAdStorage" style=" border: none; width: 100%;">Yes</button>
+  
 </body>
 
 </html>
