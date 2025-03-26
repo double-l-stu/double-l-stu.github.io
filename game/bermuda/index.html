@@ -18,45 +18,10 @@
   </style>
 </head>
 
-<!--Set up consent mode on websites-->
-<script>
-  // Define dataLayer and the gtag function.
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-
-  // Set default consent to 'denied' as a placeholder
-  // Determine actual values based on your own requirements
-  gtag('consent', 'default', {
-    'ad_storage': 'granted',
-    'ad_user_data': 'granted',
-    'ad_personalization': 'granted',
-    'analytics_storage': 'granted'
-  });
-</script>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-4R01E73Y68"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag() { dataLayer.push(arguments); }
-  gtag('js', new Date());
-
-  gtag('config', 'G-4R01E73Y68');
-</script>
-
-<!-- Create one update function for each consent parameter -->
-<script>
-  function consentGrantedAdStorage() {
-    console.log('consent granted');
-    gtag('consent', 'update', {
-      'ad_storage': 'granted'
-    });
-  }
-</script>
-
 <body>
   <strong>Privacy Policy</strong>
   <p>
-    Yunmin Shen built the Coffee Pack: Hexa Sort app as
+    Yunmin Shen built the Bermuda Escape app as
     a Free app. This SERVICE is provided by
     Yunmin Shen at no cost and is intended for use as
     is.
@@ -76,7 +41,7 @@
   <p>
     The terms used in this Privacy Policy have the same meanings
     as in our Terms and Conditions, which are accessible at
-    Coffee Pack: Hexa Sort unless otherwise defined in this Privacy Policy.
+    Bermuda Escape unless otherwise defined in this Privacy Policy.
   </p>
   <p><strong>Information Collection and Use</strong></p>
   <p>
@@ -196,15 +161,12 @@
     notify you of any changes by posting the new Privacy Policy on
     this page.
   </p>
-  <p>This policy is effective as of 2024-12-01</p>
+  <p>This policy is effective as of 2025-03-26</p>
   <p><strong>Contact Us</strong></p>
   <p>
     If you have any questions or suggestions about my
     Privacy Policy, do not hesitate to contact me at double.l.stu@gmail.com.
   </p>
-
-  <button onclick="consentGrantedAdStorage" style=" border: none; width: 100%;">Yes</button>
-
 </body>
 
 </html>
