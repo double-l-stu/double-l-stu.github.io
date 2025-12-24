@@ -165,6 +165,9 @@ lacunads.com, lcb555b3bc8667a09a, RESELLER
 onlinemediasolutions.com, 23120, RESELLER
 
 # --- Setting from SimpleGame ---
+# 20251224
+inmobi.com, 2d5fa55734e8437e851addb99c64db9f, DIRECT, 83e75a7ae333ca9d
+chartboost.com, 68464c4233a5c10342e98278, DIRECT
 # bigo 20251217
 inmobi.com, 23d316d3d980453d8ea0dcf9caec4078, RESELLER, 83e75a7ae333ca9d
 mindtos.com,mt0b219ff842ee3772, RESELLER
