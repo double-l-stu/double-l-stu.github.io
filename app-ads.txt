@@ -199,6 +199,7 @@ triplelift.com, 14716, RESELLER, 6c33edb13117fd86
 
 # --- Setting from SimpleGame ---
 #OWNERDOMAIN=[double-l-stu.github.io]
+vungle.com, 69bcf58b4bae0d5981bfcebd, DIRECT, c107d686becd2d77
 ironsrc.com, 2471e165d, Direct
 ironsrc.com, 247f4b4b5, Direct
 blueseasx.com, 203625, RESELLER
