@@ -971,7 +971,6 @@ axonix.com, 59107, RESELLER, bc385f2b4a87b721
 loopme.com, 11414, RESELLER, 6c8d5f95897a5a3b
 
 #OWNERDOMAIN=[double-l-stu.github.io]
-vungle.com, 69bcf58b4bae0d5981bfcebd, DIRECT, c107d686becd2d77
 ironsrc.com, 2471e165d, Direct
 ironsrc.com, 247f4b4b5, Direct
 blueseasx.com, 203625, RESELLER
